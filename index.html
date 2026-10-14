@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página web</title>
+
+    <style>
+        body {
+            background-color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+			gap: 1000xp
+            min-height: 100vh;
+            margin-top: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .boton {
+            font-size: 2rem;
+            box-shadow: 0 0 20px aqua;
+            border-radius: 12px;
+            background-color: aqua;
+            padding: 10px 20px;
+            width: auto;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .boton:hover {
+            box-shadow: 0 0 50px aqua;
+        }
+		
+    </style>
+</head>
+
+<body>
+
+<button class="boton" onclick="alert('¡Hola! Bienvenido a mi página web.')">
+        Botón 1
+    </button>
+    <p>&nbsp;</p>
+    <button class="boton" onclick="alert('¡Hola! Bienvenido a mi página web.')">
+        Botón 2
+		
+    </button>
+	
+
+</body>
+</html>
